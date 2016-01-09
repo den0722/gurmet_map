@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2016 年 1 朁E09 日 09:36
+-- Generation Time: 2016 年 1 朁E09 日 09:45
 -- サーバのバージョン： 5.6.25
 -- PHP Version: 5.6.11
 
@@ -79,10 +79,10 @@ CREATE TABLE IF NOT EXISTS `foods` (
 -- --------------------------------------------------------
 
 --
--- テーブルの構造 `shop_lists`
+-- テーブルの構造 `shops`
 --
 
-CREATE TABLE IF NOT EXISTS `shop_lists` (
+CREATE TABLE IF NOT EXISTS `shops` (
   `id` int(11) NOT NULL,
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL,
@@ -120,9 +120,9 @@ ALTER TABLE `foods`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `shop_lists`
+-- Indexes for table `shops`
 --
-ALTER TABLE `shop_lists`
+ALTER TABLE `shops`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -150,9 +150,9 @@ ALTER TABLE `evaluations`
 ALTER TABLE `foods`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT for table `shop_lists`
+-- AUTO_INCREMENT for table `shops`
 --
-ALTER TABLE `shop_lists`
+ALTER TABLE `shops`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
