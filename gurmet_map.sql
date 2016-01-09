@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2016 年 1 朁E09 日 09:45
+-- Generation Time: 2016 年 1 朁E09 日 10:13
 -- サーバのバージョン： 5.6.25
 -- PHP Version: 5.6.11
 
@@ -55,8 +55,7 @@ CREATE TABLE IF NOT EXISTS `categories` (
 CREATE TABLE IF NOT EXISTS `evaluations` (
   `id` int(11) NOT NULL,
   `created` datetime NOT NULL,
-  `modified` datetime NOT NULL,
-  `comment` varchar(255) NOT NULL
+  `modified` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -73,7 +72,8 @@ CREATE TABLE IF NOT EXISTS `foods` (
   `shop_id` int(11) NOT NULL,
   `category_id` int(11) NOT NULL,
   `evaluation_id` int(11) NOT NULL,
-  `picture_path` varchar(64) NOT NULL
+  `picture_path` varchar(64) NOT NULL,
+  `comment` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
