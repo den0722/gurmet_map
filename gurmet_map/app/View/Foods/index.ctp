@@ -23,10 +23,10 @@
 		<td><?php echo h($food['Food']['modified']); ?>&nbsp;</td>
 		<td><?php echo h($food['Food']['food_name']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($food['Shop']['id'], array('controller' => 'shops', 'action' => 'view', $food['Shop']['id'])); ?>
+			<?php echo $this->Html->link($food['Shop']['shop_name'], array('controller' => 'shops', 'action' => 'view', $food['Shop']['id'])); ?>
 		</td>
 		<td>
-			<?php echo $this->Html->link($food['Category']['id'], array('controller' => 'categories', 'action' => 'view', $food['Category']['id'])); ?>
+			<?php echo $this->Html->link($food['Category']['category_name'], array('controller' => 'categories', 'action' => 'view', $food['Category']['id'])); ?>
 		</td>
 		<td>
 			<?php echo $this->Html->link($food['Evaluation']['id'], array('controller' => 'evaluations', 'action' => 'view', $food['Evaluation']['id'])); ?>

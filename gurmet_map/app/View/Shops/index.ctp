@@ -21,7 +21,7 @@
 		<td><?php echo h($shop['Shop']['shop_name']); ?>&nbsp;</td>
 		<td><?php echo h($shop['Shop']['address']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($shop['Area']['id'], array('controller' => 'areas', 'action' => 'view', $shop['Area']['id'])); ?>
+			<?php echo $this->Html->link($shop['Area']['area_name'], array('controller' => 'areas', 'action' => 'view', $shop['Area']['id'])); ?>
 		</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $shop['Shop']['id'])); ?>

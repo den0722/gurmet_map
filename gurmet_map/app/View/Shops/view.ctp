@@ -28,7 +28,7 @@
 		</dd>
 		<dt><?php echo __('Area'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($shop['Area']['id'], array('controller' => 'areas', 'action' => 'view', $shop['Area']['id'])); ?>
+			<?php echo $this->Html->link($shop['Area']['area_name'], array('controller' => 'areas', 'action' => 'view', $shop['Area']['id'])); ?>
 			&nbsp;
 		</dd>
 	</dl>

@@ -12,7 +12,7 @@ class Category extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'id';
+	public $displayField = 'category_name';
 
 /**
  * Validation rules

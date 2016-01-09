@@ -23,12 +23,12 @@
 		</dd>
 		<dt><?php echo __('Shop'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($food['Shop']['id'], array('controller' => 'shops', 'action' => 'view', $food['Shop']['id'])); ?>
+			<?php echo $this->Html->link($food['Shop']['shop_name'], array('controller' => 'shops', 'action' => 'view', $food['Shop']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Category'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($food['Category']['id'], array('controller' => 'categories', 'action' => 'view', $food['Category']['id'])); ?>
+			<?php echo $this->Html->link($food['Category']['category_name'], array('controller' => 'categories', 'action' => 'view', $food['Category']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Evaluation'); ?></dt>

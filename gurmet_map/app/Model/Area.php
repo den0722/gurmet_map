@@ -12,7 +12,7 @@ class Area extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'id';
+	public $displayField = 'area_name';
 
 /**
  * Validation rules

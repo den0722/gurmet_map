@@ -13,7 +13,7 @@ class Shop extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'id';
+	public $displayField = 'shop_name';
 
 /**
  * Validation rules
