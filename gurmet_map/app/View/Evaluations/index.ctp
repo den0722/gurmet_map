@@ -17,7 +17,7 @@
 		<td><?php echo h($evaluation['Evaluation']['modified']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $evaluation['Evaluation']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $evaluation['Evaluation']['id'])); ?>
+			<?php /* echo $this->Html->link(__('Edit'), array('action' => 'edit', $evaluation['Evaluation']['id']));  */ ?>
 			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $evaluation['Evaluation']['id']), array('confirm' => __('Are you sure you want to delete # %s?', $evaluation['Evaluation']['id']))); ?>
 		</td>
 	</tr>

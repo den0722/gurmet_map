@@ -21,7 +21,7 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('Edit Evaluation'), array('action' => 'edit', $evaluation['Evaluation']['id'])); ?> </li>
+		<?php /* <li><?php echo $this->Html->link(__('Edit Evaluation'), array('action' => 'edit', $evaluation['Evaluation']['id'])); ?> </li> */ ?>
 		<li><?php echo $this->Form->postLink(__('Delete Evaluation'), array('action' => 'delete', $evaluation['Evaluation']['id']), array(), __('Are you sure you want to delete # %s?', $evaluation['Evaluation']['id'])); ?> </li>
 		<li><?php echo $this->Html->link(__('List Evaluations'), array('action' => 'index')); ?> </li>
 		<?php /* <li><?php echo $this->Html->link(__('New Evaluation'), array('action' => 'add')); ?> </li>*/ ?>
