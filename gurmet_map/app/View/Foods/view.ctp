@@ -38,7 +38,7 @@
 		</dd>
 		<dt><?php echo __('Picture Path'); ?></dt>
 		<dd>
-			<?php echo h($food['Food']['picture_path']); ?>
+			<img src="../../../<?php echo h($food['Food']['picture_path']); ?>">
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Comment'); ?></dt>
